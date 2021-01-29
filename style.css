@@ -1,0 +1,113 @@
+body {
+    background: #54838a ;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.intro {
+    margin: 35px 0px;
+    font-weight: bold
+}
+
+h1 {
+    color:whitesmoke;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+
+p {
+    font-weight: 700;
+}
+
+#first {
+  margin-top: 10px;
+  color: #FFCD5D;
+}
+
+#second {
+  color: #15ff00;
+
+}
+
+#third {
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+
+#enter {
+  border: none;
+  
+  padding: 17px 15px 8px 15px;
+  border-radius: 5px;
+  color: #04A1BF;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  -ms-transition: all 0.75s ease;
+  -o-transition: all 0.75 ease;
+  font-weight: normal;
+  background-image: url(pencil.jpg);
+  background-size: 30px;
+  background-position: center;
+  
+}
+
+#enter:hover{
+  background-color: #02798F;
+  color: #FFCD5D;
+}
+
+ul {
+  text-align: left;
+  margin-top: 20px;
+}
+
+
+li {
+  list-style: none;
+  padding: 10px 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 2px solid #025f70;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: #000000;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5 ease;
+}
+
+li:hover {
+  background: #76CFE0;
+}
+
+li > button {
+  font-weight: normal;
+  background: none;
+  border: none;
+  float: right;
+  color: #025f70;
+  font-weight: 800;
+}
+
+input {
+  border-radius: 5px;
+  min-width: 65%;
+  padding: 5px;
+  border: none;
+}
+
+
+.done {
+  background: #fc0101 !important;
+  color: #000000;
+}
+
+.delete {
+  display: none;
+}
